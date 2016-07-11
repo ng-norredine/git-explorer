@@ -1,0 +1,17 @@
+<div>
+  <div class="user-img col-xs-12 col-sm-5 col-md-4">
+    <img class="fb-image-profile thumbnail" src="http://placehold.it/218x218"/>
+  </div>
+
+  <form name="searchUser" ng-submit="search(username)">
+    <div class="col-xs-12 col-sm-7 col-md-8">
+      <div class="search-wrapper">
+        <h3 class="title">Entrez un nom d'utilisateur</h3>
+        <div class="user-search-form">
+          <input type="text" required placeholder="Entrez un utilisateur" ng-model="username" />
+          <input type="submit" value="Search" />
+        </div>
+      </div>
+    </div>
+  </form>
+</div>

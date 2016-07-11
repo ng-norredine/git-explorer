@@ -1,0 +1,35 @@
+body {font-family: 'Open Sans', sans-serif;}
+
+h3 {font-size: 30px;}
+
+.wrapper {
+    padding: 0 15px;
+    margin: 0 15px;
+}
+
+.banner {width:100%;}
+
+.fb-image-profile {
+    margin: -90px auto 50px;
+    z-index: 1;
+    max-width: 218px;
+    max-height: 218px;
+    position: relative;
+}
+
+.results {
+    top: -60px;
+    margin: 0 auto;
+}
+
+.title {margin-bottom: 20px;}
+
+.backToSearch.top {float: right;}
+
+.backToSearch {margin: 20px 0;}
+
+.ng-binding {margin: 10px 0;}
+
+@media (max-width:768px) {
+    .search-wrapper {text-align: center;}
+}
